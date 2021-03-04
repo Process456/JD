@@ -1,0 +1,147 @@
+body,
+html {
+    scroll-behavior: smooth;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+.mod-copyright {
+    margin-top: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.from-conrainer {
+    margin-top: 20px;
+    height: 520px;
+    border: 1px solid #ccc;
+}
+
+.from-conrainer h3 {
+    padding: 0 12px;
+    height: 40px;
+    background-color: #ececec;
+    line-height: 40px;
+    font-weight: normal;
+    border-bottom: 1px solid #ccc;
+}
+
+.from-conrainer h3 em {
+    float: right;
+    font-size: 12px;
+}
+
+.from-conrainer h3 a {
+    color: #c81623;
+}
+
+.reg-from {
+    margin: 54px auto 0;
+    width: 660px;
+    height: 400px;
+}
+
+.reg-from label {
+    display: inline-block;
+    height: 36px;
+    width: 100px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.reg-from .inpt {
+    margin-left: 10px;
+    width: 238px;
+    height: 34px;
+    border: 1px solid #ccc;
+}
+
+.reg-from .error {
+    color: #c81623;
+    margin-left: 10px;
+}
+
+.reg-from .success {
+    color: #40b83f;
+    margin-left: 10px;
+}
+
+.error .error-pic,
+.success .success-pic {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/error.png);
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 5px;
+}
+
+.success .success-pic {
+    background: url(../img/success.png);
+}
+
+.reg-from li {
+    margin-bottom: 15px;
+}
+
+.safe {
+    padding: 5px 0 0 200px;
+    font-size: 10px;
+}
+
+.safe em {
+    display: inline-block;
+    width: 34px;
+    height: 13px;
+    text-align: center;
+    line-height: 13p;
+}
+
+.safe .ruo {
+    background-color: #de1111;
+}
+
+.safe .zhong {
+    background-color: #40b83f;
+}
+
+.safe .qiang {
+    background-color: #f79100;
+}
+
+.useragree {
+    margin-top: 25px;
+    padding-left: 110px;
+}
+
+.useragree .chbox {
+    vertical-align: middle;
+}
+
+.btn-finsh {
+    margin-top: 60px;
+}
+
+.btn-finsh a {
+    display: block;
+    margin-left: 130px;
+    width: 200px;
+    height: 34px;
+    color: white;
+    background-color: #c81623;
+    text-align: center;
+    line-height: 34px;
+}

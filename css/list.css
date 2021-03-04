@@ -1,0 +1,147 @@
+img {
+  transition: all 0.2s;
+}
+img:hover{
+  margin-left: 4px;
+}
+.logo {
+  position: relative;
+}
+.sk {
+  position: absolute;
+  top: 40px;
+  left: 185px;
+  height: 32px;
+  padding: 5px 0 0 14px;
+  border-left: 1px solid #b1191a;
+}
+.sk-left li{
+  float: left;
+}
+.sk-left li a {
+  margin: 0 30px;
+  color: #000;
+  font-weight: bold;
+}
+.sk-left li a:hover {
+  color: #b1191a;
+}
+.sk-right li {
+  float: left;
+}
+.sk-right li a {
+  margin: 0px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'icomoon';
+}
+.sk-container-bd {
+  margin-top: 25px;
+  width: 1212px;
+}
+.sk-goods {
+  float: left;
+  margin:0 13px 20px 0;
+  position: relative;
+  width: 288px;
+  height: 458px;
+  border: 1px solid #e12228;
+}
+.sk-goods-title {
+  padding:0 10px 0;
+  font-weight: normal;
+  font-size: 14px;
+}
+.sk-goods-price {
+  padding: 10px 10px 0;
+  font-size: 22px;
+  color:#e60012;
+  font-weight: bold
+}
+.sk-goods-price del {
+  font-size:14px;
+  font-weight: bold;
+  color: #666;
+}
+.sk-goods-progress {
+  padding: 0 10px;
+}
+.sk-goods-progress .bar {
+  display: inline-block;
+  margin: 0 5px;
+  width: 130px;
+  height: 10px;
+  vertical-align: middle;
+  border-radius: 5px;
+  border: 1px solid #e60012;
+}
+.bar-in {
+  width: 87%;
+  height: 10px;
+  background-color: #ed282e;
+}
+.sk-goods-buy {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #b1191a;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+.sk-goods-progress em,
+.sk-goods-progress i {
+  color: #e12228;
+}
+.page {
+  margin: 40px 0;
+  font-size: 14px;
+  text-align: center;
+}
+.page a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+}
+.page .page-num-up, 
+.page .page-num-down {
+  width: 80px;
+}
+.page-num .current {
+  color: #e12228;
+  border-color: transparent;
+  background: transparent;
+}
+.page-num .dottad {
+  border-color: transparent;
+  background: transparent;
+}
+.page-right {
+  margin-left: 20px;
+}
+.page-right input {
+  margin: 0 5px;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #ddd;
+  text-align: center;
+  transition: all 0.3s;
+}
+.page-right input:focus {
+  width: 70px;
+  border-color: skyblue;
+}
+.page-right button {
+  margin-left: 10px;
+  width: 45px;
+  height: 36px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+}
+
+
